@@ -1,0 +1,23 @@
+.herobg {
+    background: url('./images/main-images/all--images/main-bgc.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 758px) {
+    .herobg {
+        background: url('./images/main-images/all--images/main-bgc1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 367px) {
+    .herobg {
+        background: url('./images/main-images/all--images/main-bgc2.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
